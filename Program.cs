@@ -34,3 +34,6 @@ for (int i = 0; i < a.Count(); i++)
         j++;
     }
 }
+
+Print(a);
+Print(b);

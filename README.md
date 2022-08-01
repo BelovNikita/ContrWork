@@ -1,3 +1,5 @@
+Console.Write("Ввидите символы через ,");
+
 string s = Console.ReadLine(); **Ввод строки**
 
 

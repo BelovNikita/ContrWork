@@ -1,5 +1,6 @@
 string s = Console.ReadLine(); **Ввод строки**
 
+
 void Print(string[] arr)     **Метод печати  массива**
 {
     for (int i = 0; i < arr.Length; i++)
@@ -9,11 +10,17 @@ void Print(string[] arr)     **Метод печати  массива**
     Console.WriteLine();
 }
 
+
+
 string[] a = s.Split(','); **Создание основного массива**
+
+
 
 
 int m = 4;**Переменная ограничения количества символов в массиве**
 int n = 0;**Переменная размера массива**
+
+
 
 
 for (int i = 0; i < a.Count(); i++)**Узнаем размер нового массива**
@@ -37,6 +44,8 @@ for (int i = 0; i < a.Count(); i++)
         j++;
     }
 }
+
+
 
 
 Print(a);**Вывод массивов**

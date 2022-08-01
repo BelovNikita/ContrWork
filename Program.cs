@@ -1,4 +1,5 @@
-﻿string s = Console.ReadLine();
+﻿Console.Write("Ввидите символы через ,");
+string s = Console.ReadLine();
 void Print(string[] arr)    
 {
     for (int i = 0; i < arr.Length; i++)

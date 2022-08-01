@@ -20,3 +20,17 @@ for (int i = 0; i < a.Count(); i++)
         n++;
     }
 }
+
+string[] b = new string[n];
+
+int j = 0;
+
+for (int i = 0; i < a.Count(); i++)
+{
+    if (a[i].Length < m)
+    {
+        b[j] = a[i];
+
+        j++;
+    }
+}

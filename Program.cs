@@ -9,3 +9,14 @@ void Print(string[] arr)
 }
 
 string[] a = s.Split(',');
+
+int m = 4;
+int n = 0;
+
+for (int i = 0; i < a.Count(); i++)
+{
+    if (a[i].Length < m)
+    {
+        n++;
+    }
+}
